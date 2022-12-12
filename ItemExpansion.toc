@@ -1,0 +1,8 @@
+## Interface: 100002
+## Author: Clampy
+## Title: Item Expansions
+## Notes: Displays the expansion an item is from in the tooltip
+## Version: 0.1.0
+
+Main.lua
+ExpansionOverrides.lua
