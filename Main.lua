@@ -1,13 +1,20 @@
 TooltipDataProcessor.AddTooltipPostCall(Enum.TooltipDataType.Item, function(tooltip, ...)
 	local itemName, itemLink = tooltip:GetItem()
+	local itemID = GetItemInfoFromHyperlink(itemLink)	
+	local expansionID = ExpansionOverride[itemID]	
 
-	expansionID = ExpansionOverride[GetItemInfoFromHyperlink(itemLink)]	
+	local WasIdOverridden = true
 	if (expansionID == nil) then
 		expansionID = select(15, GetItemInfo(itemLink))
+		WasIdOverridden = false
 	end
-	
-	GameTooltip:AddLine(" ")
-	GameTooltip:AddLine(ExpansionStrings[expansionID], 0.84, 0.72, 0.48)
+
+	-- A quick hack to find some unreliably "classic" items. I hate it
+	if (not WasIdOverridden and expansionID == 0 and itemID > 20000) then
+		GameTooltip:AddLine(ExpansionStrings[expansionID] .. " (Unreliable)", 0.84, 0.72, 0.48)
+	else
+		GameTooltip:AddLine(ExpansionStrings[expansionID], 0.84, 0.72, 0.48)
+	end
 end)
 
 -- Convert expansionID into a string
