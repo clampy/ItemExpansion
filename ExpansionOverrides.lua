@@ -1,26 +1,179 @@
 
 -- Some items have the wrong expansionID. Check the itemID for known incorrect expansionIDs and override the expansionID
 ExpansionOverride = {
+	-- Classic (REMOVE THIS. JUST TO SHUT UP THE HACK I DID)
+	[19019] = 0, -- Thunderfury, Blessed Blade of the Windseeker
+	[19221] = 0, -- Darkmoon Special Reserve
+	[22202] = 0, -- Small Obsidian Shard
+	[22203] = 0, -- Large Obsidian Shard
+	[21213] = 0, -- Preserved Holly
+	[21254] = 0, -- Winter Veil Cookie
+	[21325] = 0, -- Mechanical Greench
+	[21328] = 0, -- Wand of Holiday Cheer
+	[21525] = 0, -- Green Winter Hat
+
 	-- Burning Crusade:
+	[20815] = 1, -- Jeweler's Toolset
 	[21841] = 1, -- Netherweave Bag
-
+	[25470] = 1, -- Golden Gryphon
+	[25471] = 1, -- Ebon Gryphon
+	[25472] = 1, -- Snowy Gryphon
+	[25473] = 1, -- Swift Blue Gryphon
+	[25527] = 1, -- Swift Red Gryphon
+	[25528] = 1, -- Swift Green Gryphon
+	[25529] = 1, -- Swift Purple Gryphon
+	[31760] = 1, -- Miniwing
+	[32757] = 1, -- Blessed Medallion of Karabor
+	[33820] = 1, -- Weather-Beaten Fishing Hat
+	[35221] = 1, -- Tabard of the Shattered Sun
+	[35280] = 1, -- Tabard of Summer Flames
+	[35514] = 1, -- Frostscythe of Lord Ahune
+	[35516] = 1, -- Sun Touched Satchel
+	[37863] = 1, -- Direbrew's Remote
+	
 	-- Wrath of the Lich King:
+	[33443] = 2, -- Sour Goat Cheese
+	[33444] = 2, -- Pungent Seal Whey
+	[33445] = 2, -- Honeymint Tea
+	[33451] = 2, -- Fillet of Icefin
+	[33452] = 2, -- Honey-Spiced Lichen
+	[33454] = 2, -- Salted Venison
+	[35947] = 2, -- Sparkling Frostcap
+	[35948] = 2, -- Savory Snowplum
+	[35949] = 2, -- Tundra Berries
+	[35950] = 2, -- Sweet Potato Bread
+	[35951] = 2, -- Poached Emperor Salmon
+	[35952] = 2, -- Briny Hardcheese
+	[35953] = 2, -- Mead Basted Caribou
+	[35954] = 2, -- Sweetened Goat's Milk
 	[38347] = 2, -- Mammoth Mining Bag
+	[38682] = 2, -- Enchanting Vellum
+	[39354] = 2, -- Light Parchment
+	[39505] = 2, -- Virtuoso Inking Set
+	[40035] = 2, -- Northrend Honey Mead
+	[40036] = 2, -- Snowplum Brandy
+	[40042] = 2, -- Caraway Burnwine
 	[40110] = 2, -- Haunted Memento
-	[41599] = 2, -- Frostweave Bag
 
+	[40610] = 2, -- Chestguard of the Lost Conqueror
+	[40611] = 2, -- Chestguard of the Lost Protector
+	[40612] = 2, -- Chestguard of the Lost Vanquisher
+	[40616] = 2, -- Helm of the Lost Conqueror
+	[40617] = 2, -- Helm of the Lost Protector
+	[40618] = 2, -- Helm of the Lost Vanquisher
+	[40619] = 2, -- Leggings of the Lost Conqueror
+	[40620] = 2, -- Leggings of the Lost Protector
+	[40621] = 2, -- Leggings of the Lost Vanquisher
+	[40622] = 2, -- Spaulders of the Lost Conqueror
+	[40623] = 2, -- Spaulders of the Lost Protector
+	[40624] = 2, -- Spaulders of the Lost Vanquisher
+	[40625] = 2, -- Breastplate of the Lost Conqueror
+	[40626] = 2, -- Breastplate of the Lost Protector
+	[40627] = 2, -- Breastplate of the Lost Vanquisher
+	[40631] = 2, -- Crown of the Lost Conqueror
+	[40632] = 2, -- Crown of the Lost Protector
+	[40633] = 2, -- Crown of the Lost Vanquisher
+	[40634] = 2, -- Legplates of the Lost Conqueror
+	[40635] = 2, -- Legplates of the Lost Protector
+	[40636] = 2, -- Legplates of the Lost Vanquisher
+	[40637] = 2, -- Mantle of the Lost Conqueror
+	[40638] = 2, -- Mantle of the Lost Protector
+	[40639] = 2, -- Mantle of the Lost Vanquisher
+
+	[40643] = 2, -- Tabard of the Achiever
+	[41599] = 2, -- Frostweave Bag
+	[43345] = 2, -- Dragon Hide Bag
+	[43508] = 2, -- Recipe: Last Week's Mammoth
+	[43488] = 2, -- Last Week's Mammoth
+	[43463] = 2, -- Scroll of Agility VII
+	[43852] = 2, -- Thick Fur Clothing Scraps
+	[44447] = 2, -- Dragonscale Ammo Pouch
+	[44737] = 2, -- Draenic Silk Robes
+	[49074] = 2, -- Coren's Chromium Coaster
+	
 	-- Cataclysm:
+	[52723] = 3, -- Runed Elementium Rod
+	[54443] = 3, -- Embersilk Bag
 	[54445] = 3, -- Otherworldly Bag
+	[58274] = 3, -- Fresh Water
+	[60335] = 3, -- Thick Hide Pack
 	[64399] = 3, -- Battle Standard of Coordination (Alliance)
 	[64402] = 3, -- Battle Standard of Coordination (Horde)
+	[64670] = 3, -- Vanishing Powder
 	[69748] = 3, -- Tattered Hexcloth Bag
+	[71083] = 3, -- Darkmoon Game Token
+	[71634] = 3, -- Darkmoon Adventurer's Guide
+	[71635] = 3, -- Imbued Crystal
+	[71636] = 3, -- Monstrous Egg
+	[71638] = 3, -- Ornate Weapon
+	[71715] = 3, -- A Treatise on Strategy
+	[71952] = 3, -- Captured Insignia
 	[71953] = 3, -- Fallen Adventurer's Journal
 
 	-- Mists of Pandaria:
+	[74636] = 4, -- Golden Carp Consomme	
+	[81194] = 4, -- Sharp Fangs
+	[81218] = 4, -- Stone Heart
+	[81400] = 4, -- Pounded Rice Cake
+	[81401] = 4, -- Yak Cheese Curds
+	[81406] = 4, -- Roasted Barley Tea
+	[81409] = 4, -- Tangy Yogurt
+	[81414] = 4, -- Pearl Milk Tea
+	[82446] = 4, -- Royal Satchel
+	[85663] = 4, -- Herbalist's Spade
 	[86143] = 4, -- Battle Pet Bandage
-	[86546] = 4, -- Sky Crystal
+	[86546] = 4, -- Sky Crystal	
 	[86547] = 4, -- Skyshard
+	[86577] = 4, -- Rod of Ambershaping
 	[87216] = 4, -- Thermal Anvil
+	[87409] = 4, -- Plans: Gauntlets of Battle Command
+	[87771] = 4, -- Reins of the Heavenly Onyx Cloud Serpent
+	[87773] = 4, -- Reins of the Heavenly Crimson Cloud Serpent
+	[87774] = 4, -- Reins of the Heavenly Golden Cloud Serpent
+	[87776] = 4, -- Reins of the Heavenly Azure Cloud Serpent
+	[87777] = 4, -- Reins of the Astral Cloud Serpent
+	[87779] = 4, -- Ancient Guo-Lai Cache Key
+
+	[89234] = 4, -- Helm of the Shadowy Vanquisher
+	[89235] = 4, -- Helm of the Shadowy Conqueror
+	[89236] = 4, -- Helm of the Shadowy Protector
+	[89237] = 4, -- Chest of the Shadowy Conqueror
+	[89238] = 4, -- Chest of the Shadowy Protector
+	[89239] = 4, -- Chest of the Shadowy Vanquisher
+	[89240] = 4, -- Gauntlets of the Shadowy Conqueror
+	[89241] = 4, -- Gauntlets of the Shadowy Protector
+	[89242] = 4, -- Gauntlets of the Shadowy Vanquisher
+	[89243] = 4, -- Leggings of the Shadowy Conqueror
+	[89244] = 4, -- Leggings of the Shadowy Protector
+	[89245] = 4, -- Leggings of the Shadowy Vanquisher
+	[89246] = 4, -- Shoulders of the Shadowy Conqueror
+	[89247] = 4, -- Shoulders of the Shadowy Protector
+	[89248] = 4, -- Shoulders of the Shadowy Vanquisher
+
+	[89249] = 4, -- Chest of the Shadowy Vanquisher (Heroic)
+	[89250] = 4, -- Chest of the Shadowy Conqueror (Heroic)
+	[89251] = 4, -- Chest of the Shadowy Protector (Heroic)
+	[89252] = 4, -- Leggings of the Shadowy Vanquisher (Heroic)
+	[89253] = 4, -- Leggings of the Shadowy Conqueror (Heroic)
+	[89254] = 4, -- Leggings of the Shadowy Protector (Heroic)
+	[89255] = 4, -- Gauntlets of the Shadowy Vanquisher (Heroic)
+	[89256] = 4, -- Gauntlets of the Shadowy Conqueror (Heroic)
+	[89257] = 4, -- Gauntlets of the Shadowy Protector (Heroic)
+	[89264] = 4, -- Chest of the Shadowy Vanquisher (Raid Finder)
+	[89265] = 4, -- Chest of the Shadowy Conqueror (Raid Finder)
+	[89266] = 4, -- Chest of the Shadowy Protector (Raid Finder)
+	[89267] = 4, -- Leggings of the Shadowy Vanquisher (Raid Finder)
+	[89268] = 4, -- Leggings of the Shadowy Conqueror (Raid Finder)
+	[89269] = 4, -- Leggings of the Shadowy Protector (Raid Finder)
+	[89270] = 4, -- Gauntlets of the Shadowy Vanquisher (Raid Finder)
+	[89271] = 4, -- Gauntlets of the Shadowy Conqueror (Raid Finder)
+	[89272] = 4, -- Gauntlets of the Shadowy Protector (Raid Finder)
+
+	[89783] = 4, -- Son of Galleon's Saddle
+	[89799] = 4, -- August Celestials Tabard
+	[90839] = 4, -- Cache of Sha-Touched Gold
+	[90840] = 4, -- Marauder's Gleaming Sack of Gold
+
 	[92675] = 4, -- Flawless Beast Battle-Stone
 	[92676] = 4, -- Flawless Critter Battle-Stone
 	[92677] = 4, -- Flawless Flying Battle-Stone
@@ -30,21 +183,211 @@ ExpansionOverride = {
 	[92681] = 4, -- Flawless Undead Battle-Stone
 	[92682] = 4, -- Flawless Humanoid Battle-Stone
 	[92683] = 4, -- Flawless Dragonkin Battle-Stone
+	
+	[93029] = 4, -- Gluth's Bone
+	[93030] = 4, -- Dusty Clutch of Eggs
+	[93032] = 4, -- Blighted Spore	
+	[93666] = 4, -- Spawn of Horridon
+	[94152] = 4, -- Son of Animus
+	[94222] = 4, -- Key to the Palace of Lei Shen
+	[94228] = 4, -- Reins of the Cobalt Primordial Direhorn
+	[94574] = 4, -- Pygmy Direhorn
+	[94835] = 4, -- Ji-Kun Hatchling
+	[95057] = 4, -- Reins of the Thundering Cobalt Cloud Serpent
+	[95059] = 4, -- Clutch of Ji-Kun
 
+	[95569] = 4, -- Chest of the Crackling Vanquisher
+	[95570] = 4, -- Gauntlets of the Crackling Vanquisher
+	[95571] = 4, -- Helm of the Crackling Vanquisher
+	[95572] = 4, -- Leggings of the Crackling Vanquisher
+	[95573] = 4, -- Shoulders of the Crackling Vanquisher
+	[95574] = 4, -- Chest of the Crackling Conqueror
+	[95575] = 4, -- Gauntlets of the Crackling Conqueror
+	[95576] = 4, -- Leggings of the Crackling Conqueror
+	[95577] = 4, -- Helm of the Crackling Conqueror
+	[95578] = 4, -- Shoulders of the Crackling Conqueror
+	[95579] = 4, -- Chest of the Crackling Protector
+	[95580] = 4, -- Gauntlets of the Crackling Protector
+	[95581] = 4, -- Leggings of the Crackling Protector
+	[95582] = 4, -- Helm of the Crackling Protector
+	[95583] = 4, -- Shoulders of the Crackling Protector
+
+	[97960] = 4, -- Dark Quivering Blob	
+
+	[99712] = 4, -- Leggings of the Cursed Conqueror
+	[99713] = 4, -- Leggings of the Cursed Protector
+	[99714] = 4, -- Chest of the Cursed Vanquisher
+	[99715] = 4, -- Chest of the Cursed Conqueror
+	[99716] = 4, -- Chest of the Cursed Protector
+	[99717] = 4, -- Shoulders of the Cursed Vanquisher
+	[99718] = 4, -- Shoulders of the Cursed Conqueror
+	[99719] = 4, -- Shoulders of the Cursed Protector
+	[99720] = 4, -- Gauntlets of the Cursed Vanquisher
+	[99721] = 4, -- Gauntlets of the Cursed Conqueror
+	[99722] = 4, -- Gauntlets of the Cursed Protector
+	[99723] = 4, -- Helm of the Cursed Vanquisher
+	[99724] = 4, -- Helm of the Cursed Conqueror
+	[99725] = 4, -- Helm of the Cursed Protector
+	[99726] = 4, -- Leggings of the Cursed Vanquisher
+	[99752] = 4, -- Leggings of the Cursed Conqueror
+	[99753] = 4, -- Leggings of the Cursed Protector
+
+	[104158] = 4, -- Blackfuse Bombling
+	[104162] = 4, -- Droplet of Y'Shaarj
+	[104165] = 4, -- Kovok
+	[104253] = 4, -- Kor'kron Juggernaut
+	[104304] = 4, -- Blizzard Stone
+	[105866] = 4, -- Essence of the Cursed Protector
+	[105867] = 4, -- Essence of the Cursed Conqueror
+	[105868] = 4, -- Essence of the Cursed Vanquisher
+	[167047] = 4, -- Stoneclaw
+	[167048] = 4, -- Wayward Spirit
+	[167049] = 4, -- Celestial Gift
+	[167050] = 4, -- Mogu Statue
+	
 	-- Warlords of Draenor:
+	[101677] = 5, -- Thunderlord Grapple
+	[107517] = 5, -- Giant Mandible
+	[107518] = 5, -- Depleted Toxin Reservoir
+	[108977] = 5, -- Tangled Vines
+	[109076] = 5, -- Goblin Glider Kit
+	[112090] = 5, -- Transmorphic Tincture
+	[114002] = 5, -- Encoded Message
+	[114017] = 5, -- Steamwheedle Wagon Bomb
+	[114877] = 5, -- Dirty Note
+	[115510] = 5, -- Elemental Rune
+	[116117] = 5, -- Rook's Lucky Fishin' Line
+	[116260] = 5, -- Burnished Mining Bag
 	[116259] = 5, -- Burnished Leather Bag
 	[116261] = 5, -- Burnished Inscription Bag
+	[116415] = 5, -- Shiny Pet Charm
+	[116421] = 5, -- Flying Battle-Training Stone
+	[116448] = 5, -- Warm Red Woolen Socks
+	[118109] = 5, -- Disposable Pocket Flying Machine
+	[118470] = 5, -- Garn-Tooth Necklace
+	[118723] = 5, -- Secret of Draenor Jewelcrafting
 	[118922] = 5, -- Oralius' Whispering Crystal
+	[119293] = 5, -- Secret of Draenor Enchanting
+	[122457] = 5, -- Ultimate Battle-Training Stone
+	[124099] = 5, -- Blackfang Claw
+	[124645] = 5, -- Darkmoon Draught of Precision
+	[124669] = 5, -- Darkmoon Daggermaw
+	[128218] = 5, -- Fel-Proof Goggles
+	[128353] = 5, -- Admiral's Compass
+	[128507] = 5, -- Inflatable Thunderfury, Blessed Blade of the Windseeker
+	[128510] = 5, -- Exquisite Costume Set: "Edwin VanCleef"
+	[128650] = 5, -- "Merry Munchkin" Costume
 
 	-- Legion:
+	[128772] = 6, -- Branch of the Runewood
+	[128853] = 6, -- Highmountain Spring Water
+	[129188] = 6, -- Bleakwater Jelly
+	[129208] = 6, -- Stormborne Whelpling
+	[129725] = 6, -- Smoldering Torch
+	[129863] = 6, -- Felhide Sample
+	[130904] = 6, -- Highmountain Ritual-Stone
+	[130905] = 6, -- Mark of the Deceiver
+	[130912] = 6, -- Moosebone Fish-Hook
+	[131804] = 6, -- Jeweled Candle
+	[131805] = 6, -- Gilded Goblet
+	[131806] = 6, -- Skullhat's Skull Hat
+	[131743] = 6, -- Blood of Young Mannoroth
+	[132185] = 6, -- Intact Skull
+	[132183] = 6, -- Razor Tooth
+	[132184] = 6, -- Intact Shimmering Scale
+	[132186] = 6, -- Hardened Molars
+	[132192] = 6, -- Pitted Bone
+	[132193] = 6, -- Tuft of Plumage
+	[132197] = 6, -- Fel Paw
+	[132199] = 6, -- Congealed Felblood
+	[132200] = 6, -- Ashen Ring
+	[132204] = 6, -- Sticky Volatile Substance
+	[132212] = 6, -- Frothing Essence
+	[132217] = 6, -- Elemental Pebbles
+	[132230] = 6, -- Mana-Charged Hide
+	[132231] = 6, -- Worn Hooked Claw	
+	[132232] = 6, -- Coalesced Extoplasm
+	[132233] = 6, -- Lingering Essence
+	[132234] = 6, -- Spectral Dust
+	[132237] = 6, -- Large Leg Bone
+	[132239] = 6, -- Bone Splinters
+	[132471] = 6, -- Grand Feast of Valhallas
+	[133813] = 6, -- Recipe: Pickled Stormray (Rank 1)
+	[133820] = 6, -- Recipe: Drogbar-Style Salmon (Rank 1)
+	[133827] = 6, -- Recipe: Bear Tartare (Rank 1)
+	[133828] = 6, -- Recipe: Fighter Chow (Rank 1)
+	[136377] = 6, -- Oversized Bobber
+	[138285] = 6, -- Blue-Tail Bites
+	[138290] = 6, -- Grilled Mini Rays
+	[138292] = 6, -- Ley-Enriched Water
+	[138293] = 6, -- Explorer's Pack
+	[139540] = 6, -- Aponi's Journal Page
+	[139541] = 6, -- Sigil of Command
+	[139542] = 6, -- Strip of Sailcloth
+	[139543] = 6, -- Broken Tiller
+	[139544] = 6, -- Deteriorating Tideskorn War Banner
+	[139545] = 6, -- Rusted Mariner's Bell
+	[139546] = 6, -- Twisting Anima of Souls	
+	[140201] = 6, -- 'Organic' Azsunian Grapes
+	[140202] = 6, -- Smoked 'Grass Fed' Elderhorn
+	[140203] = 6, -- 'Natural' Highmountain Spring Water
+	[140204] = 6, -- 'Bottled' Ley-Enriched Water
+	[140205] = 6, -- 'Fresh' Moist Azsunian Feta
+	[140206] = 6, -- Grilled 'Wild' Mini Rays
+	[140207] = 6, -- 'Free-Range' Honey-Glazed Ham
+	[137911] = 6, -- Recipe: Battlebound Grips (Rank 3)
+	[138123] = 6, -- Shiny Gold Nugget
+	[138125] = 6, -- Crystal Clear Gemstone
+	[138127] = 6, -- Mysterious Coin
+	[138129] = 6, -- Swatch of Priceless Silk
+	[138131] = 6, -- Magical Sprouting Beans
+	[138133] = 6, -- Elixir of Endless Wonder
+	[138135] = 6, -- Rax's Magnifying Glass
+	[142372] = 6, -- Well-Tailored Robes
+	[142374] = 6, -- Fanciful Hat
+	[142375] = 6, -- Dispelling Crystal
+	[139895] = 6, -- Skinning Technique: Legion Butchery
+	[151116] = 6, -- Fashionable Undershirt
+	[151134] = 6, -- Trial of Style Token
 
 	-- Battle for Azeroth:
 	[141605] = 7, -- Flight Master's Whistle
+	[166445] = 7, -- 7th Legion Scouting Map
 
 	-- Shadowlands:
 	[172957] = 8, -- Atonement Crypt Key
-	[181245] = 8, -- Oil of Ethereal Force	
+	[177223] = 8, -- Scorched Crypt Key
+	[181245] = 8, -- Oil of Ethereal Force
 
 	-- Dragonflight:
-	[194701] = 9 -- Ominous Conch
+	[193618] = 9, -- Hoofhelper
+	[194510] = 9, -- Iskaaran Harpoon
+	[194701] = 9, -- Ominous Conch
+	[198725] = 9, -- Gray Marmoni
+	[198726] = 9, -- Black Skitterbug
+	[198785] = 9, -- Schematic: Quack-E
+	[198854] = 9, -- Archeologist Artifact Notes
+	[200519] = 9, -- Mister Toots
+	[200557] = 9, -- Enchanted Arcana Vessel
+	[200590] = 9, -- Carefully Rolled Message
+	[200593] = 9, -- Sealed Expedition Note
+	[200594] = 9, -- Thaelin's Second Favorite Comb
+	[200613] = 9, -- Aylaag Windstone Fragment
+	[200769] = 9, -- Ceramic Shards
+	[200772] = 9, -- Knowledge Discs
+	[200773] = 9, -- Otherworldly Artifact
+	[200777] = 9, -- Obsidian Shards
+	[200785] = 9, -- Argali Wool Rug
+	[200806] = 9, -- Woodcarving Stone
+	[200816] = 9, -- Partially Damp Measuring Stick
+	[200835] = 9, -- Sand Pouch
+	[200842] = 9, -- Power Depleted Staff
+	[200848] = 9, -- Decorative Bouquet
+	[200930] = 9, -- Obsidian Proto-Whelp
+
+	--[[ Item number dump
+	[] = , -- 
+
+
+	]]--
 }

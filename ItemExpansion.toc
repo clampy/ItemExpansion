@@ -3,6 +3,7 @@
 ## Title: Item Expansions
 ## Notes: Displays the expansion an item is from in the tooltip
 ## Version: 0.1.0
+## SavedVariables: potentiallyIncorrectItems
 
 Main.lua
 ExpansionOverrides.lua
